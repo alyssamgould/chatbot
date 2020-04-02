@@ -1,0 +1,24 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [ "hi", "hello", "whats up", "is anyone there", "whats good", "hey", "good morning", "good afternoon" ],
+            "responses": [ "¡Hola! Hoy vamos a simular una vacación (Today we will simulate a vacation.)" ]
+        },
+        {
+            "tag": "affirmitive",
+            "patterns": [ "okay", "perfecto", "si", "yes", "vale", "entendido" ],
+            "responses": [ "Perfecto, voy a empazar. 'Bienvenido a México' Vas a encontrarse con su amigo en el museo. Pregunta un alguien por ayuda.(Perfect, I am going to start. 'Welcome to Mexico' You will meet with your friend at a museum. Ask someone for directions. " ]
+        },
+        {
+            "tag": "help",
+            "patterns": [ "Donde esta el museo?", "Como podria buscar el museo?", "where is the museum?", "where may i find the museum?" ],
+            "responses": [ "El museo esta a la derecha de la estacion de tren. Sigues caminando a la estacion, pero todavia estas perdido. Pregunta un alguien por ayuda por buscar la estacion de tren.(The museum is to the right of the train station. You continue walking, but you get lost again. Ask someone for help to help find the train station.)" ]
+        },
+        {
+            "tag": "train",
+            "patterns": [ "Donde esta la estacion de tren?", "where is the train station?" ],
+            "responses": [ "La estacion de tren esta por alla. Sigue caminando hasta lo has visto. Sigues caminando y pronto ves tu amigo afuera del museo. (The train station is through there. Keep walking until you've seen it. You continue walking and soon you see your friend outside the museum.)" ]
+        }
+    ]
+}
